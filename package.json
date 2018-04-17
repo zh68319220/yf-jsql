@@ -1,0 +1,30 @@
+{
+  "name": "yf-jsql",
+  "version": "1.0.0",
+  "description": "A simple sql queries translation to javascript.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zh68319220/yf-jsql.git"
+  },
+  "keywords": [
+    "sql",
+    "mysql",
+    "javascript"
+  ],
+  "author": "yf <420866750@qq.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zh68319220/yf-jsql/issues"
+  },
+  "homepage": "https://github.com/zh68319220/yf-jsql#readme",
+  "dependencies": {
+    "mysql": "^2.15.0"
+  }
+}
