@@ -1,6 +1,6 @@
 {
   "name": "yf-jsql",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple sql queries translation to javascript.",
   "main": "index.js",
   "directories": {
