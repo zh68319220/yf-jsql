@@ -12,7 +12,7 @@ let jsql = new Jsql({
 });
 
 async function excute() {
-  let data = await jsql.select('article', ['id']).where({id: 2}).page(5, 0).run();
+  let data = await jsql.select('article', ['id', 'create_time']).where({id: 2}).sort({create_time: 'DESC'}).page(5, 0).run();
   console.log(data);
   data = await jsql.one('article', {id: 2}, ['id', 'title', 'description', 'create_time']);
   console.log(data);
